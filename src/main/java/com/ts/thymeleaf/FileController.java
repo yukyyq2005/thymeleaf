@@ -18,4 +18,13 @@ public class FileController {
     public Object index() {
         return "index";
     }
+
+
+    @RequestMapping(value = "/d")
+    public Object index1() {
+        return "index";
+    }
+
+
+
 }
