@@ -1,4 +1,4 @@
-package com.ts.thymeleaf;
+package com.qn;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,0 +1,18 @@
+ffmpeg version N-86436-g4f9e958b04 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+  configuration: --enable-static --enable-pic --disable-encoders --enable-encoder=aac --enable-encoder=libx264 --enable-gpl --enable-libx264 --disable-decoders --enable-decoder=aac --enable-decoder=h264 --enable-decoder=hevc --disable-demuxers --enable-demuxer=aac --enable-demuxer=mov --enable-demuxer=mpegts --enable-demuxer=flv --enable-demuxer=h264 --enable-demuxer=hevc --enable-demuxer=hls --disable-muxers --enable-muxer=h264 --enable-muxer=flv --enable-muxer=f4v --enable-muxer=mp4 --disable-doc
+  libavutil      55. 63.100 / 55. 63.100
+  libavcodec     57. 98.100 / 57. 98.100
+  libavformat    57. 73.100 / 57. 73.100
+  libavdevice    57.  7.100 / 57.  7.100
+  libavfilter     6. 92.100 /  6. 92.100
+  libswscale      4.  7.101 /  4.  7.101
+  libswresample   2.  8.100 /  2.  8.100
+  libpostproc    54.  6.100 / 54.  6.100
+Input #0, rtsp, from 'rtsp://admin:qn1234567890@192.168.1.64:554/h264/ch1/main/av_stream':
+  Metadata:
+    title           : Media Presentation
+  Duration: N/A, start: 0.040000, bitrate: N/A
+    Stream #0:0: Video: hevc (Main), yuvj420p(pc, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 90k tbn, 25 tbc
+[rtmp @ 0x7fd54ec01ba0] Server error: Already publishing
+rtmp://192.168.1.133:1935/live/push: Operation not permitted

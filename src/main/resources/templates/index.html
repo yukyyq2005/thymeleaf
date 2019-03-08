@@ -2,9 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>青柠旁路编码器</title>
 </head>
 <body>
-body helloworld
+<br />
+<br />
+<br />
+<form name="input" action="submit.do" method="post">
+    &nbsp;&nbsp;&nbsp;摄像头推流地址: <input type="text" name="ipcameraUrl" style="width:500px;height:20px;">
+    <input type="submit" value="提交">
+    <br/>
+    <br/>
+    &nbsp;&nbsp;&nbsp;分辨率:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="videoSize">
+        <option value="1280*720">1280*720</option>
+        <option value="1920*1080">1920*1080</option>
+        <option value="960*540">960*540</option>
+    </select>
+    <br/>
+    <br/>
+    &nbsp;&nbsp;&nbsp;码率:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="bitrate">
+        <option value="2000">2000kb</option>
+        <option value="1500">1500kb</option>
+        <option value="1000">1000kb</option>
+        <option value="3000">3000kb</option>
+        <option value="3500">3500kb</option>
+        <option value="4000">4000kb</option>
+    </select>
+</form>
 </body>
 </html>
