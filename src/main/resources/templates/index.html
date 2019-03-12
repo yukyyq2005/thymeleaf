@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>青柠旁路编码器</title>
@@ -9,12 +9,12 @@
 <br />
 <br />
 <form name="input" action="submit.do" method="post">
-    &nbsp;&nbsp;&nbsp;摄像头推流地址: <input type="text" name="ipcameraUrl" style="width:500px;height:20px;">
+    &nbsp;&nbsp;&nbsp;摄像头推流地址: <input type="text" th:value="${cameraurl}" name="ipcameraUrl" style="width:500px;height:20px;">
     <input type="submit" value="提交">
     <br/>
     <br/>
     &nbsp;&nbsp;&nbsp;分辨率:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <select name="videoSize">
+    <select name="videoSize" id="video_size">
         <option value="1280*720">1280*720</option>
         <option value="1920*1080">1920*1080</option>
         <option value="960*540">960*540</option>
@@ -22,14 +22,48 @@
     <br/>
     <br/>
     &nbsp;&nbsp;&nbsp;码率:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <select name="bitrate">
-        <option value="2000">2000kb</option>
-        <option value="1500">1500kb</option>
+    <select name="bitrate" id="video_bitrate">
+        <option value="500">500kb</option>
         <option value="1000">1000kb</option>
+        <option value="1500">1500kb</option>
+        <option value="2000">2000kb</option>
+        <option value="2500">2500kb</option>
         <option value="3000">3000kb</option>
         <option value="3500">3500kb</option>
         <option value="4000">4000kb</option>
     </select>
 </form>
 </body>
+<script th:inline="javascript">
+    var data1 = [[${videosize}]];
+    var sel1 = document.getElementById('video_size');
+    if(data1=="1920*1080"){
+        sel1[1].selected = true;
+    }else if(data1=="960*540"){
+        sel1[2].selected = true;
+    }else{
+        sel1[0].selected = true;//默认
+    }
+    var data2 = [[${bitrate}]];
+    var sel2 = document.getElementById('video_bitrate');
+    if(data2=="500"){
+        sel2[0].selected = true;
+    }else if(data2=="1000"){
+        sel2[1].selected = true;
+    }else if(data2=="1500"){
+        sel2[2].selected = true;
+    }else if(data2=="2000"){
+        sel2[3].selected = true;
+    }else if(data2=="2500"){
+        sel2[4].selected = true;
+    }else if(data2=="3000"){
+        sel2[5].selected = true;
+    }else if(data2=="3500"){
+        sel2[6].selected = true;
+    }else if(data2=="4000"){
+        sel2[7].selected = true;
+    }else{
+        sel2[1].selected = true;//默认
+    }
+</script>
 </html>

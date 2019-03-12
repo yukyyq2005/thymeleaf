@@ -1,6 +1,7 @@
 package com.qn.service;
 
-import com.qn.model.Config;
+import com.qn.model.DestServerConfig;
+import com.qn.model.SrcServerConfig;
 
 /**
  * @description:
@@ -8,6 +9,8 @@ import com.qn.model.Config;
  * @create: 2019-03-07 14:52
  */
 public interface ConfigService {
-    Config getConfigInfo();
-    boolean saveConfigInfo(Config config);
+    SrcServerConfig getConfigInfo();
+    boolean saveConfigInfo(SrcServerConfig config);
+    DestServerConfig getDestConfigInfo();
+    boolean saveDestConfigInfo(DestServerConfig config);
 }

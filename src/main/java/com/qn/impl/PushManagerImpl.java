@@ -1,6 +1,6 @@
 package com.qn.impl;
 
-import com.qn.model.Config;
+import com.qn.model.SrcServerConfig;
 import com.qn.service.ConfigService;
 import com.qn.service.PushManager;
 import com.qn.util.MethodUtil;
@@ -48,7 +48,7 @@ public class PushManagerImpl implements PushManager {
      */
     @Override
     public void openPush() {
-        Config config = configService.getConfigInfo();
+        SrcServerConfig config = configService.getConfigInfo();
         if (config != null){
             config.setClosePush(false);
             configService.saveConfigInfo(config);
@@ -62,7 +62,7 @@ public class PushManagerImpl implements PushManager {
      */
     @Override
     public void closePush() {
-        Config config = configService.getConfigInfo();
+        SrcServerConfig config = configService.getConfigInfo();
         if (config != null){
             config.setClosePush(true);
             configService.saveConfigInfo(config);

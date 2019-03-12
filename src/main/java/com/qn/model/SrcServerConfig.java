@@ -3,18 +3,18 @@ package com.qn.model;
 import java.io.Serializable;
 
 /**
- * @description:
+ * @description:推流服务器配置信息
  * @author: Youq
  * @create: 2019-03-07 14:52
  */
-public class Config implements Serializable{
+public class SrcServerConfig implements Serializable{
     private static final long serialVersionUID = 1L;
     //rtsp流地址
     private String rtspUrl;
 
     @Override
     public String toString() {
-        return "Config{" +
+        return "SrcServerConfig{" +
                 "rtspUrl='" + rtspUrl + '\'' +
                 ", codeFormat='" + codeFormat + '\'' +
                 ", bitrate='" + bitrate + '\'' +
@@ -37,7 +37,7 @@ public class Config implements Serializable{
         return isClosePush;
     }
 
-    public Config() {
+    public SrcServerConfig() {
     }
 
     public void setRtspUrl(String rtspUrl) {

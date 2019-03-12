@@ -9,16 +9,3 @@ ffmpeg version N-86436-g4f9e958b04 Copyright (c) 2000-2017 the FFmpeg developers
   libswscale      4.  7.101 /  4.  7.101
   libswresample   2.  8.100 /  2.  8.100
   libpostproc    54.  6.100 / 54.  6.100
-Input #0, flv, from 'rtmp://192.168.1.133:1935/live/push':
-  Metadata:
-    Server          : NGINX RTMP (github.com/arut/nginx-rtmp-module)
-    displayWidth    : 1280
-    displayHeight   : 720
-    fps             : 20
-    profile         : 
-    level           : 
-  Duration: 00:00:00.00, start: 4942.000000, bitrate: N/A
-    Stream #0:0: Video: h264 (Main), yuvj420p(pc, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1999 kb/s, 20 fps, 20 tbr, 1k tbn, 40 tbc
-[tcp @ 0x7f8722d11d60] Connection to tcp://192.168.1.244:1935 failed: Connection refused
-[rtmp @ 0x7f8722d11ce0] Cannot open connection tcp://192.168.1.244:1935
-rtmp://192.168.1.244:1935/live/push: Connection refused
