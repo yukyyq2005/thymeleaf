@@ -12,6 +12,7 @@
     <artifactId>thymeleaf</artifactId>
     <version>1.0</version>
     <name>thymeleaf</name>
+    <packaging>war</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>

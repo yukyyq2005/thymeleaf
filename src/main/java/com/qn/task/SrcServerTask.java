@@ -34,7 +34,7 @@ import java.util.regex.Pattern;
  **/
 
 @Component//被容器扫描
-@EnableScheduling //开启定时任务，自动扫描
+//@EnableScheduling //开启定时任务，自动扫描
 public class SrcServerTask {
 
     private Logger logger = LoggerFactory.getLogger(getClass());

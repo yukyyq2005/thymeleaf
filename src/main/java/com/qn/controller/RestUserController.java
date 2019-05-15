@@ -11,6 +11,8 @@ import com.qn.service.ConfigService;
 import com.qn.service.PushManager;
 import com.qn.task.SrcServerTask;
 import com.qn.util.MethodUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,6 +31,7 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 public class RestUserController {
 
+	private Logger logger = LoggerFactory.getLogger(getClass());
 	@Autowired
 	PushManager pushManager;
 	@Autowired
@@ -95,17 +98,28 @@ public class RestUserController {
 
 
 
-	@RequestMapping("/{info}")
-	public User getUserInfo(@PathVariable Integer id) {
-		return new User(id,"张三",20,"中国广州");
+	@RequestMapping("/param/{uid}")
+	public User getUserInfo(@PathVariable Integer uid) {
+		logger.info("info nihao");
+
+		return new User(uid,"张三",20,"中国广州");
 	}
-	
+	@RequestMapping("/system")
+	public List<User> system() {
+		List<User> userList = new ArrayList<User>();
+		for (int i = 0; i <1; i++) {
+			userList.add(new User(i,"张三"+i,20+i,"中国广州"));
+		}
+		System.out.println("ffmpeg 已经开启 ！！！");
+		return userList;
+	}
 	@RequestMapping("/userlist")
 	public List<User> listUserxx() {
 		List<User> userList = new ArrayList<User>();
 		for (int i = 0; i <10; i++) {
 			userList.add(new User(i,"张三"+i,20+i,"中国广州"));
 		}
+		logger.error("error nihao");
 		return userList;
 	}
 	@RequestMapping("/kill")

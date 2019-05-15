@@ -1,0 +1,151 @@
+2019-05-15 22:14:18.157 INFO [background-preinit]org.hibernate.validator.internal.util.Version.<clinit>:21 -HV000001: Hibernate Validator 6.0.14.Final
+2019-05-15 22:14:18.283 INFO [main]com.qn.ThymeleafApplication.logStarting:50 -Starting ThymeleafApplication on USER-20180922NY with PID 6752 (C:\Users\Administrator\IdeaProjects\thymeleaf\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:14:18.283 INFO [main]com.qn.ThymeleafApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:14:19.657 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 80 (http)
+2019-05-15 22:14:19.672 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-80"]
+2019-05-15 22:14:19.688 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-15 22:14:19.688 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 22:14:19.688 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;F:\software\mysql-5.7.25-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-05-15 22:14:19.766 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-15 22:14:19.766 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1436 ms
+2019-05-15 22:14:19.813 WARN [main]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:557 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restUserController': Unsatisfied dependency expressed through field 'taskService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.qn.task.SrcServerTask' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-05-15 22:14:19.813 INFO [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-05-15 22:14:19.828 INFO [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-15 22:15:25.072 INFO [main]com.qn.ThymeleafApplication.logStarting:50 -Starting ThymeleafApplication on USER-20180922NY with PID 2852 (C:\Users\Administrator\IdeaProjects\thymeleaf\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:15:25.072 INFO [main]com.qn.ThymeleafApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:15:27.038 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 80 (http)
+2019-05-15 22:15:27.054 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-80"]
+2019-05-15 22:15:27.069 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-15 22:15:27.069 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 22:15:27.085 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;F:\software\mysql-5.7.25-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-05-15 22:15:27.178 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-15 22:15:27.194 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2074 ms
+2019-05-15 22:15:27.459 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:15:27.631 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:15:27.693 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-80"]
+2019-05-15 22:15:27.724 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 80 (http) with context path ''
+2019-05-15 22:15:27.740 INFO [main]com.qn.ThymeleafApplication.logStarted:59 -Started ThymeleafApplication in 3.276 seconds (JVM running for 4.209)
+2019-05-15 22:15:44.263 INFO [http-nio-80-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-15 22:15:44.264 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-05-15 22:15:44.282 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 18 ms
+2019-05-15 22:19:35.812 INFO [main]com.qn.ThymeleafApplication.logStarting:50 -Starting ThymeleafApplication on USER-20180922NY with PID 5740 (C:\Users\Administrator\IdeaProjects\thymeleaf\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:19:35.812 INFO [main]com.qn.ThymeleafApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:19:36.733 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 80 (http)
+2019-05-15 22:19:36.733 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-80"]
+2019-05-15 22:19:36.748 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-15 22:19:36.748 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 22:19:36.748 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;F:\software\mysql-5.7.25-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-05-15 22:19:36.842 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-15 22:19:36.842 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 967 ms
+2019-05-15 22:19:37.029 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:19:37.123 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:19:37.185 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-80"]
+2019-05-15 22:19:37.201 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 80 (http) with context path ''
+2019-05-15 22:19:37.201 INFO [main]com.qn.ThymeleafApplication.logStarted:59 -Started ThymeleafApplication in 2.434 seconds (JVM running for 3.319)
+2019-05-15 22:19:39.719 INFO [http-nio-80-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-15 22:19:39.719 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-05-15 22:19:39.724 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 5 ms
+2019-05-15 22:19:51.284 WARN [http-nio-80-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:19:55.096 WARN [http-nio-80-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:20:16.652 WARN [http-nio-80-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:20:21.175 WARN [http-nio-80-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:20:39.597 WARN [http-nio-80-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:21:55.280 WARN [http-nio-80-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:22:01.052 WARN [http-nio-80-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:22:04.915 WARN [http-nio-80-exec-2]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:22:09.421 WARN [http-nio-80-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:25:30.145 WARN [http-nio-80-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:26:28.498 INFO [main]com.qn.ThymeleafApplication.logStarting:50 -Starting ThymeleafApplication on USER-20180922NY with PID 1916 (C:\Users\Administrator\IdeaProjects\thymeleaf\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:26:28.498 INFO [main]com.qn.ThymeleafApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:26:29.502 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 80 (http)
+2019-05-15 22:26:29.518 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-80"]
+2019-05-15 22:26:29.525 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-15 22:26:29.525 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 22:26:29.527 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;F:\software\mysql-5.7.25-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-05-15 22:26:29.588 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-15 22:26:29.588 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 980 ms
+2019-05-15 22:26:29.744 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:26:29.852 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:26:29.919 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-80"]
+2019-05-15 22:26:29.936 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 80 (http) with context path ''
+2019-05-15 22:26:29.939 INFO [main]com.qn.ThymeleafApplication.logStarted:59 -Started ThymeleafApplication in 2.303 seconds (JVM running for 3.075)
+2019-05-15 22:26:43.643 INFO [http-nio-80-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-15 22:26:43.643 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-05-15 22:26:43.650 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-05-15 22:26:43.675 WARN [http-nio-80-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2019-05-15 22:27:10.708 INFO [main]com.qn.ThymeleafApplication.logStarting:50 -Starting ThymeleafApplication on USER-20180922NY with PID 5700 (C:\Users\Administrator\IdeaProjects\thymeleaf\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:27:10.711 INFO [main]com.qn.ThymeleafApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:27:12.043 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 80 (http)
+2019-05-15 22:27:12.058 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-80"]
+2019-05-15 22:27:12.058 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-15 22:27:12.058 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 22:27:12.074 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;F:\software\mysql-5.7.25-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-05-15 22:27:12.152 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-15 22:27:12.152 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1399 ms
+2019-05-15 22:27:12.343 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:27:12.464 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:27:12.530 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-80"]
+2019-05-15 22:27:12.562 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 80 (http) with context path ''
+2019-05-15 22:27:12.571 INFO [main]com.qn.ThymeleafApplication.logStarted:59 -Started ThymeleafApplication in 2.656 seconds (JVM running for 3.416)
+2019-05-15 22:27:15.061 INFO [http-nio-80-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-15 22:27:15.062 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-05-15 22:27:15.066 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 4 ms
+2019-05-15 22:27:15.096 INFO [http-nio-80-exec-1]com.qn.controller.RestUserController.getUserInfo:103 -info nihao
+2019-05-15 22:27:54.352 INFO [main]com.qn.ThymeleafApplication.logStarting:50 -Starting ThymeleafApplication on USER-20180922NY with PID 3232 (C:\Users\Administrator\IdeaProjects\thymeleaf\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:27:54.352 INFO [main]com.qn.ThymeleafApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:27:55.418 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 80 (http)
+2019-05-15 22:27:55.430 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-80"]
+2019-05-15 22:27:55.439 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-15 22:27:55.439 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 22:27:55.444 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;F:\software\mysql-5.7.25-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-05-15 22:27:55.516 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-15 22:27:55.516 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1117 ms
+2019-05-15 22:27:55.689 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:27:55.782 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:27:55.829 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-80"]
+2019-05-15 22:27:55.860 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 80 (http) with context path ''
+2019-05-15 22:27:55.860 INFO [main]com.qn.ThymeleafApplication.logStarted:59 -Started ThymeleafApplication in 2.396 seconds (JVM running for 3.255)
+2019-05-15 22:27:58.653 INFO [http-nio-80-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-15 22:27:58.654 INFO [http-nio-80-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-05-15 22:27:58.660 INFO [http-nio-80-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-05-15 22:27:58.691 WARN [http-nio-80-exec-2]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:197 -Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "var"]
+2019-05-15 22:28:00.934 INFO [http-nio-80-exec-4]com.qn.controller.RestUserController.getUserInfo:103 -info nihao
+2019-05-15 22:28:59.779 INFO [main]com.qn.ThymeleafApplication.logStarting:50 -Starting ThymeleafApplication on USER-20180922NY with PID 1016 (C:\Users\Administrator\IdeaProjects\thymeleaf\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:28:59.779 INFO [main]com.qn.ThymeleafApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:29:00.869 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 80 (http)
+2019-05-15 22:29:00.869 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-80"]
+2019-05-15 22:29:00.885 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-05-15 22:29:00.885 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 22:29:00.885 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;F:\software\mysql-5.7.25-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-05-15 22:29:00.964 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-05-15 22:29:00.979 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1153 ms
+2019-05-15 22:29:01.183 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:29:01.308 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:29:01.356 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-80"]
+2019-05-15 22:29:01.372 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 80 (http) with context path ''
+2019-05-15 22:29:01.387 INFO [main]com.qn.ThymeleafApplication.logStarted:59 -Started ThymeleafApplication in 2.579 seconds (JVM running for 3.396)
+2019-05-15 22:29:02.461 INFO [http-nio-80-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-15 22:29:02.462 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-05-15 22:29:02.467 INFO [http-nio-80-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 5 ms
+2019-05-15 22:29:02.498 INFO [http-nio-80-exec-1]com.qn.controller.RestUserController.getUserInfo:103 -info nihao
+2019-05-15 22:29:06.473 INFO [http-nio-80-exec-2]com.qn.controller.RestUserController.getUserInfo:103 -info nihao
+2019-05-15 22:33:44.027 INFO [main]com.qn.ThymeleafApplicationTests.logStarting:50 -Starting ThymeleafApplicationTests on USER-20180922NY with PID 1308 (started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:33:44.027 INFO [main]com.qn.ThymeleafApplicationTests.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:33:46.302 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:33:46.550 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:33:46.690 INFO [main]com.qn.ThymeleafApplicationTests.logStarted:59 -Started ThymeleafApplicationTests in 3.258 seconds (JVM running for 4.352)
+2019-05-15 22:33:47.027 INFO [Thread-2]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:37:19.330 INFO [main]com.qn.ThymeleafApplicationTests.logStarting:50 -Starting ThymeleafApplicationTests on USER-20180922NY with PID 2760 (started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:37:19.346 INFO [main]com.qn.ThymeleafApplicationTests.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:37:21.970 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:37:22.188 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:37:22.329 INFO [main]com.qn.ThymeleafApplicationTests.logStarted:59 -Started ThymeleafApplicationTests in 3.603 seconds (JVM running for 4.642)
+2019-05-15 22:37:22.734 INFO [Thread-2]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:40:47.642 INFO [main]com.qn.ThymeleafApplicationTests.logStarting:50 -Starting ThymeleafApplicationTests on USER-20180922NY with PID 1804 (started by Administrator in C:\Users\Administrator\IdeaProjects\thymeleaf)
+2019-05-15 22:40:47.642 INFO [main]com.qn.ThymeleafApplicationTests.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-05-15 22:40:49.803 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 22:40:50.038 INFO [main]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:61 -Adding welcome page template: index
+2019-05-15 22:40:50.194 INFO [main]com.qn.ThymeleafApplicationTests.logStarted:59 -Started ThymeleafApplicationTests in 3.117 seconds (JVM running for 4.163)
+2019-05-15 22:40:50.537 INFO [Thread-2]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'

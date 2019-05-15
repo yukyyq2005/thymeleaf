@@ -1,0 +1,22 @@
+2019-05-15 22:14:19.969 ERROR[main]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:42 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field taskService in com.qn.controller.RestUserController required a bean of type 'com.qn.task.SrcServerTask' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.qn.task.SrcServerTask' in your configuration.
+
+2019-05-15 22:19:39.741 ERROR[http-nio-80-exec-1]com.qn.controller.RestUserController.listUserxx:113 -error nihao
+2019-05-15 22:19:41.393 ERROR[http-nio-80-exec-3]com.qn.controller.RestUserController.listUserxx:113 -error nihao
+2019-05-15 22:19:42.099 ERROR[http-nio-80-exec-5]com.qn.controller.RestUserController.listUserxx:113 -error nihao
+2019-05-15 22:19:42.745 ERROR[http-nio-80-exec-7]com.qn.controller.RestUserController.listUserxx:113 -error nihao

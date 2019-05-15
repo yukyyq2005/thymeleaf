@@ -24,7 +24,7 @@ import java.util.List;
  * @create: 2019-03-11 11:04
  */
 @Component//被容器扫描
-@EnableScheduling //开启定时任务，自动扫描
+//@EnableScheduling //开启定时任务，自动扫描
 public class DestServerTask {
 
     private int count;
